@@ -19,8 +19,8 @@ namespace ConsoleApp5
             Console.Write("What’s your age?");
             double age = double.Parse(Console.ReadLine());
             Console.WriteLine($"your born at : {currentyear - age}");
-            double Y = ((age) * 365);
-            Console.WriteLine($"your days old : {Y}");
+            double days = ((age) * 365);
+            Console.WriteLine($"your days old : {days}");
             double hour = (((age * 365) * 60));
             Console.WriteLine($"your hours old : {hour}");
           { 
