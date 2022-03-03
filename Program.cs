@@ -10,7 +10,7 @@ namespace ConsoleApp5
     {
         static void Main(string[] args)
         {
-            int X = 2022;
+            int currentyear = 2022;
 
             Console.Write("What’s your name?");
             string input = Console.ReadLine();
@@ -18,7 +18,7 @@ namespace ConsoleApp5
             Console.WriteLine($"your name is : {input}");
             Console.Write("What’s your age?");
             double age = double.Parse(Console.ReadLine());
-            Console.WriteLine($"your born at : {X - age}");
+            Console.WriteLine($"your born at : {currentyear - age}");
             double Y = ((age) * 365);
             Console.WriteLine($"your days old : {Y}");
             double hour = (((age * 365) * 60));
